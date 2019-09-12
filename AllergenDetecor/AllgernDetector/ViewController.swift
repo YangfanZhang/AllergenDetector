@@ -12,17 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     var tableView: UITableView!
     
     var arrayItems: Array<Array<String>> = [
-        ["模拟qq扫码界面", "qqStyle"],
-    //    ["模仿支付宝扫码区域", "ZhiFuBaoStyle"],
-    //    ["模仿微信扫码区域", "weixinStyle"],
-    //    ["无边框，内嵌4个角", "InnerStyle"],
-    //    ["4个角在矩形框线上,网格动画", "OnStyle"],
-    //    ["自定义颜色", "changeColor"],
-    //    ["只识别框内", "recoCropRect"],
-    //    ["改变尺寸", "changeSize"],
-    //    ["条形码效果", "notSquare"],
-    //    ["二维码/条形码生成", "myCode"],
-    //    ["相册", "openLocalPhotoAlbum"]
+        ["Scan"],
     ]
     
     override func viewDidLoad() {
