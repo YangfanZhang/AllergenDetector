@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fdc_id</key>
+		<string>356425</string>
+		<key>brand_owner</key>
+		<string>G. T. Japan, Inc.</string>
+		<key>gtin_upc</key>
+		<string>19022129152</string>
+		<key>description</key>
+		<string>MOCHI ICE CREAM BONBONS</string>
+		<key>ingredients</key>
+		<string>ICE CREAM INGREDIENTS: MILK, CREAM, SUGAR, STRAWBERRIES (STRAWBERRIES, SUGAR), CORN SYRUP SOLIDS, SKIM MILK, WHEY, NATURAL FLAVOR, GUAR GUM, MONO &amp; DIGLYCERIDES, BEET JUICE AND BEET POWDER (FOR COLOR), CELLULOSE GUM, LOCUST BEAN GUM, CARRAGEENAN. COATING INGREDIENTS: SUGAR, WATER, RICE FLOUR, TREHALOSE, EGG WHITES, BEET JUICE AND BEET POWDER (FOR COLOR), DUSTED WITH CORN &amp; POTATO STARCH</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356426</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>CHIPOTLE BARBECUE SAUCE</string>
+		<key>ingredients</key>
+		<string>WATER, SUGAR, TOMATO PASTE, MOLASSES, DISTILLED VINEGAR, CONTAINS 2% OR LESS OF: CORN STARCH, SALT, DRIED CHIPOTLE PEPPER, NATURAL SMOKE FLAVOR, MUSTARD FLOUR, DRIED GARLIC, DRIED ONION, SPICES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356427</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>HOT &amp; SPICY BARBECUE SAUCE</string>
+		<key>ingredients</key>
+		<string>SUGAR, WATER, DISTILLED VINEGAR, TOMATO PASTE, MOLASSES, MODIFIED CORN STARCH, SALT, PINEAPPLE JUICE CONCENTRATE, CONTAINS 1% OR LESS OF: JALAPENO PEPPERS, SPICE, CARAMEL COLOR, NATURAL FLAVOR, XANTHAN GUM, GARLIC POWDER, TAMARIND EXTRACT.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356428</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>BARBECUE SAUCE</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE (WATER, TOMATO PASTE), SUGAR, DISTILLED VINEGAR, MOLASSES, WATER, MODIFIED CORN STARCH, SALT, BOURBON WHISKEY, CONTAINS 1% OR LESS OF: MUSTARD FLOUR, SPICE, DRIED ONION, DRIED GARLIC, NATURAL FLAVOR, XANTHAN GUM, CARAMEL COLOR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356429</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>BARBECUE SAUCE</string>
+		<key>ingredients</key>
+		<string>SUGAR, DISTILLED VINEGAR, WATER, TOMATO PASTE, HONEY, MOLASSES, MODIFIED CORN STARCH, SALT, CONTAINS 1% OR LESS OF: NATURAL FLAVOR, PINEAPPLE JUICE CONCENTRATE, SPICE, CARAMEL COLOR, XANTHAN GUM, GARLIC POWDER, TAMARIND EXTRACT.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356430</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ORIGINAL BARBECUE SAUCE</string>
+		<key>ingredients</key>
+		<string>SUGAR, DISTILLED VINEGAR, WATER, TOMATO PASTE, MODIFIED CORN STARCH, MOLASSES, SALT, PINEAPPLE JUICE CONCENTRATE, CONTAINS 1% OR LESS OF: NATURAL FLAVOR, SPICE, CARAMEL COLOR, XANTHAN GUM, GARLIC POWDER, TAMARIND EXTRACT.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356431</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>CLASSIC BARBECUE SAUCE</string>
+		<key>ingredients</key>
+		<string>SUGAR, DISTILLED VINEGAR, WATER, TOMATO PUREE (WATER, TOMATO PASTE), MOLASSES, SALT, MODIFIED CORN STARCH, CONTAINS LESS THAN 1% OF: MUSTARD FLOUR, SPICE, CELERY SEED, NATURAL FLAVOR, XANTHAN GUM, PAPRIKA (FOR COLOR), CARAMEL COLOR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356432</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>HICKORY BARBECUE SAUCE</string>
+		<key>ingredients</key>
+		<string>WATER, SUGAR, TOMATO PASTE, MOLASSES, DISTILLED VINEGAR, SALT, MODIFIED CORN STARCH, CONTAINS 1% OR LESS OF: NATURAL FLAVOR, MUSTARD FLOUR, SPICE, ONION POWDER, CARAMEL COLOR, XANTHAN GUM, GARLIC POWDER, OLEORESIN PAPRIKA.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356433</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>STEAK SAUCE</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE, ONION PUREE, SUGAR, MOLASSES, DISTILLED VINEGAR, HORSERADISH, SALT, SOYBEAN OIL, ORANGE JUICE CONCENTRATE, LEMON JUICE CONCENTRATE, ANCHOVY PASTE (ANCHOVY, OLIVE OIL, ACETIC ACID), ROASTED GARLIC PUREE (GARLIC, WATER, NATURAL FLAVOR, CITRIC ACID), NATURAL FLAVOR, JALAPENO PUREE (JALAPENO CHILE, DISTILLED VINEGAR, SALT), SOY SAUCE (WATER, WHEAT, SOYBEAN, SALT), CHILI POWDER, MUSTARD FLOUR, XANTHAN GUM, BLACK PEPPER, CARAMEL COLORING, CLOVE POWDER.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356434</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, OUR FLAVORFUL MUSTARD IS PERFECT FOR SAVORY SANDWICHES, MEATS OR SNACKS</string>
+		<key>ingredients</key>
+		<string>ORGANIC GRAIN VINEGAR, WATER, ORGANIC MUSTARD SEED, SALT, ORGANIC TURMERIC, ORGANIC PAPRIKA, ORGANIC SPICES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356435</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, SWEET HOT MUSTARD</string>
+		<key>ingredients</key>
+		<string>DISTILLED VINEGAR, WATER, HONEY, MUSTARD FLOUR, MUSTARD SEED, SALT, SPICE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356436</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>STONEGROUND HORSERADISH MUSTARD</string>
+		<key>ingredients</key>
+		<string>DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, HORSERADISH, SOYBEAN OIL, SPICES, MUSTARD OIL.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356437</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ORGANIC DIJON MUSTARD</string>
+		<key>ingredients</key>
+		<string>ORGANIC DISTILLED VINEGAR, WATER, ORGANIC MUSTARD SEED, SALT, ORGANIC TURMERIC, ORGANIC SPICE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356438</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>DIJON MUSTARD</string>
+		<key>ingredients</key>
+		<string>DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, WHITE WINE, CITRIC ACID, TURMERIC, SPICE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356439</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>SPICY BROWN MUSTARD</string>
+		<key>ingredients</key>
+		<string>DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, TURMERIC, SPICE, NATURAL FLAVOR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356440</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>YELLOW MUSTARD</string>
+		<key>ingredients</key>
+		<string>DISTILLED VINEGAR, WATER, MUSTARD SEED, SALT, TURMERIC, PAPRIKA, SPICE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356441</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>TOMATO KETCHUP</string>
+		<key>ingredients</key>
+		<string>ORGANIC TOMATO CONCENTRATE (WATER, ORGANIC TOMATO PASTE), ORGANIC SUGAR, ORGANIC VINEGAR, SALT, ORGANIC ONION POWDER, ORGANIC SPICES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356442</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>LITE MAYONNAISE</string>
+		<key>ingredients</key>
+		<string>WATER, SOYBEAN OIL, EGGS, DISTILLED VINEGAR, FOOD STARCH MODIFIED*, CONTAINS LESS THAN 2% OF: SALT, CULTURED SUGAR*, LEMON JUICE CONCENTRATE, DL-ALPHA-TOCOPHEROL ACETATE (VITAMIN E)*, NATURAL FLAVOR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356443</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>REAL MAYONNAISE MADE WITH CIDER VINEGAR</string>
+		<key>ingredients</key>
+		<string>SOYBEAN OIL, EGGS, CIDER VINEGAR, WATER, CONTAINS LESS THAN 2% OF: SALT, SPICE, LEMON JUICE CONCENTRATE, NATURAL FLAVORS.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356444</string>
+		<key>brand_owner</key>
+		<string>McConnell&apos;s Ice Cream Inc.</string>
+		<key>gtin_upc</key>
+		<string>75209826304</string>
+		<key>description</key>
+		<string>FINE ICE CREAMS</string>
+		<key>ingredients</key>
+		<string>CREAM, MILK, CANE SUGAR, NON FAT MILK SOLIDS, ORGANIC EGG YOLKS, GUITTARD COCOA, GUITTARD CHOCOLATE LIQUOR, ALMOND BRITTLE [ALMONDS, BUTTER, CANE SUGAR, SALT], R.R. LOCHHEAD VANILLA, ESPRESSO</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356445</string>
+		<key>brand_owner</key>
+		<string>Stater Bros. Markets Inc.</string>
+		<key>gtin_upc</key>
+		<string>74175823872</string>
+		<key>description</key>
+		<string>STATER BROS., SUGAR POWDERED</string>
+		<key>ingredients</key>
+		<string>SUGAR, CORNSTARCH.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356446</string>
+		<key>brand_owner</key>
+		<string>Stater Bros. Markets Inc.</string>
+		<key>gtin_upc</key>
+		<string>74175823872</string>
+		<key>description</key>
+		<string>STATER BROS., PURE CANE SUGAR GRANULATED</string>
+		<key>ingredients</key>
+		<string>SUGAR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356447</string>
+		<key>brand_owner</key>
+		<string>Stater Bros. Markets Inc.</string>
+		<key>gtin_upc</key>
+		<string>74175021056</string>
+		<key>description</key>
+		<string>STATER BROS., ROTINI AN ENRICHED MACARONI PRODUCT</string>
+		<key>ingredients</key>
+		<string>SEMOLINA (WHEAT), DURUM FLOUR (WHEAT), NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356448</string>
+		<key>brand_owner</key>
+		<string>Stater Bros. Markets Inc.</string>
+		<key>gtin_upc</key>
+		<string>74175610880</string>
+		<key>description</key>
+		<string>STATER BROS., KIDNEY BEANS, DARK RED</string>
+		<key>ingredients</key>
+		<string>PREPARED DARK RED KIDNEY BEANS, WATER, SUGAR, SALT, CALCIUM CHLORIDE (FIRMING AGENT), DISODIUM EDTA (FOR COLOR RETENTION).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356449</string>
+		<key>brand_owner</key>
+		<string>Meijer, Inc.</string>
+		<key>gtin_upc</key>
+		<string>41250004992</string>
+		<key>description</key>
+		<string>NON-STICK OLIVE OIL COOKING SPRAY</string>
+		<key>ingredients</key>
+		<string>EXTRA VIRGIN OLIVE OIL**, SOY LECITHIN, DIMETHYL SILICONE (FOR ANTI-FOAMING).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356450</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239267328</string>
+		<key>description</key>
+		<string>SLICED SMOKED TURKEY BREAST</string>
+		<key>ingredients</key>
+		<string>TURKEY BREAST, WATER, DEXTROSE, CONTAINS LESS THAN 2% OF SODIUM LACTATE, SALT, SODIUM PHOSPHATE, SODIUM NITRITE, SODIUM ERYTHORBATE, SMOKE FLAVORING, SODIUM DIACETATE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356451</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239267328</string>
+		<key>description</key>
+		<string>SLICED HONEY HAM WITH NATURAL JUICES</string>
+		<key>ingredients</key>
+		<string>PORK CURED WITH WATER, HONEY, CONTAINS LESS THAN 2% OF SALT, SUGAR, BROWN SUGAR, SPICE EXTRACTIVES, SODIUM LACTATE, SODIUM PHOSPHATE, SODIUM NITRITE, SODIUM ERYTHORBATE, SODIUM DIACETATE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356452</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239267328</string>
+		<key>description</key>
+		<string>SLICED BLACK FOREST HAM</string>
+		<key>ingredients</key>
+		<string>PORK CURED WITH: WATER, DEXTROSE, CONTAINS LESS THAN 2% SODIUM LACTATE, SALT, SODIUM PHOSPHATE, SODIUM ERYTHORBATE, SODIUM NITRITE, SODIUM DIACETATE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356453</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239267328</string>
+		<key>description</key>
+		<string>SLICED BLACK ANGUS ROAST BEEF</string>
+		<key>ingredients</key>
+		<string>BEEF, WATER, CONTAINS LESS THAN 2% SODIUM LACTATE, SODIUM PHOSPHATE, SODIUM DIACETATE, DEXTROSE, SALT, HYDROLYZED CORN PROTEIN, ONION AND GARLIC POWDER, CANOLA OIL, NATURAL FLAVORS. COATED WITH: DEXTROSE, SALT, CARAMEL COLOR, FLAVORINGS, HYDROLYZED CORN PROTEIN, SPICES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356454</string>
+		<key>brand_owner</key>
+		<string>Milton G. Waldbaum Company</string>
+		<key>gtin_upc</key>
+		<string>75925602304</string>
+		<key>description</key>
+		<string>MUENSTER CHEESE</string>
+		<key>ingredients</key>
+		<string>PASTEURIZED MILK, CHEESE CULTURE, SALT, ENZYMES, ANNATTO (COLOR).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356455</string>
+		<key>brand_owner</key>
+		<string>Milton G. Waldbaum Company</string>
+		<key>gtin_upc</key>
+		<string>75925602304</string>
+		<key>description</key>
+		<string>SWISS CHEESE</string>
+		<key>ingredients</key>
+		<string>PASTEURIZED PART-SKIM MILK, CHEESE CULTURE, SALT, ENZYMES, NATAMYCIN (MOLD INHIBITOR).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356456</string>
+		<key>brand_owner</key>
+		<string>Columbus Manufacturing, Inc.</string>
+		<key>gtin_upc</key>
+		<string>73007112192</string>
+		<key>description</key>
+		<string>HONEY MUSTARD</string>
+		<key>ingredients</key>
+		<string>WATER, SUGAR, HONEY, WHEAT FLOUR, MUSTARD SEED, WHITE DISTILLED VINEGAR, SOYBEAN OIL, SALT, LEMON JUICE, XANTHAN GUM, EGGS, ONIONS, HIGH FRUCTOSE CORN SYRUP, CITRIC ACID, GARLIC, TURMERIC, SPICES, CALCIUM DISODIUM EDTA (RETAINS PRODUCT FRESHNESS), NATURAL FLAVOR, ANNATTO.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356457</string>
+		<key>brand_owner</key>
+		<string>Columbus Manufacturing, Inc.</string>
+		<key>gtin_upc</key>
+		<string>73007104000</string>
+		<key>description</key>
+		<string>SEASONED ROAST BEEF</string>
+		<key>ingredients</key>
+		<string>BEEF, WATER, SALT, POTASSIUM LACTATE, POTASSIUM ACETATE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356458</string>
+		<key>brand_owner</key>
+		<string>DCI Cheese Company, Inc.</string>
+		<key>gtin_upc</key>
+		<string>711564984320</string>
+		<key>description</key>
+		<string>GREAT MIDWEST, CRANBERRY CHEDDAR</string>
+		<key>ingredients</key>
+		<string>CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURES, SALT, ENZYMES), CRANBERRIES, SUGAR, SUNFLOWER OIL, NATURAL FLAVOR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356459</string>
+		<key>brand_owner</key>
+		<string>DCI Cheese Company, Inc.</string>
+		<key>gtin_upc</key>
+		<string>711564984320</string>
+		<key>description</key>
+		<string>GREAT MIDWEST, CHIPOTLE CHEDDAR</string>
+		<key>ingredients</key>
+		<string>CHEDDAR CHEESE (PASTEURIZED MILK, CHEESE CULTURES, SALT, ENZYMES), CHIPOTLE PEPPERS.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356460</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>TRADITIONAL HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, WATER, SESAME TAHINI, CANOLA/OLIVE OIL BLEND, SALT, CITRIC ACID, NATURAL FLAVOR, GARLIC, SPICES, POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356461</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>SUN-DRIED TOMATO &amp; BASIL HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, WATER, CANOLA/OLIVE OIL BLEND, SESAME TAHINI, SUNDRIED TOMATOES, LEMON JUICE CONCENTRATE, BASIL, GARLIC, SALT, SPICES, NATURAL FLAVOR, PAPRIKA EXTRACT (NATURAL FLAVORS, SOY LECITHIN), POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356462</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>SPINACH &amp; ARTICHOKE HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, ARTICHOKE HEARTS, SESAME TAHINI, SPINACH, WATER, CANOLA/OLIVE OIL BLEND, ROASTED RED PEPPERS, SALT, CITRIC ACID, NATURAL FLAVOR, GARLIC, SPICES, POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356463</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>ROASTED GARLIC HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, WATER, SESAME TAHINI, GARLIC, CANOLA/OLIVE OIL BLEND, PIMIENTOS, SALT, CITRIC ACID, CAPERS, SPICES, VINEGAR, POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356464</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>SPICY THREE PEPPER HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, WATER, SESAME TAHINI, CANOLA/OLIVE OIL BLEND, PIMIENTOS, POBLANO PEPPERS, LEMON JUICE CONCENTRATE, JALAPENO PEPPERS, RED PEPPERS, SALT, GARLIC, SPICES, POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356465</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>ROASTED RED PEPPER HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, ROASTED RED PEPPERS, SESAME TAHINI, CANOLA/OLIVE OIL BLEND, SALT, CITRIC ACID, NATURAL FLAVOR, GARLIC, SPICES, ACACIA GUM, XANTHAN GUM, GUAR GUM, POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356466</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>ROASTED GARLIC HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, WATER, SESAME TAHINI, GARLIC, CANOLA/OLIVE OIL BLEND, PIMIENTOS, SALT, CITRIC ACID, CAPERS, SPICES, VINEGAR, POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356467</string>
+		<key>brand_owner</key>
+		<string>Target Stores</string>
+		<key>gtin_upc</key>
+		<string>85239234560</string>
+		<key>description</key>
+		<string>ROASTED RED PEPPER HUMMUS</string>
+		<key>ingredients</key>
+		<string>CHICKPEAS, ROASTED RED PEPPERS, SESAME TAHINI, CANOLA/OLIVE OIL BLEND, SALT, CITRIC ACID, NATURAL FLAVOR, GARLIC, SPICES, ACACIA GUM, XANTHAN GUM, GUAR GUM, POTASSIUM SORBATE AND SODIUM BENZOATE (TO MAINTAIN FRESHNESS).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356468</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ORGANIC TRI-COLORED TORTILLA STRIPS</string>
+		<key>ingredients</key>
+		<string>ORGANIC CORN MASA FLOUR (WHITE, YELLOW, BLUE), ORGANIC VEGETABLE OIL (FROM ONE OR MORE OF: SAFFLOWER, SUNFLOWER, CANOLA), ORGANIC CHILE POWDER, ORGANIC CHIPOTLE CHILI POWDER, SALT, ORGANIC TOMATO POWDER, ORGANIC CUMIN, ORGANIC GARLIC POWDER.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356469</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>VANILLA BEAN ICE CREAM</string>
+		<key>ingredients</key>
+		<string>MILK, SUGAR ,CORN SYRUP, CREAM, TAPIOCA STARCH, WHEY PROTEIN ISOLATE, MONO- AND DI-GLYCERIDES, GUAR GUM, TARA GUM, CELLULOSE GUM, XANTHAN GUM, CARRAGEENAN, DEXTROSE, NATURAL VANILLA FLAVOR, VANILLA BEAN, VITAMIN A PALMITATE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356470</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>LIGHT ICE CREAM</string>
+		<key>ingredients</key>
+		<string>MILK, SUGAR, CREAM, CHOCOLATE CHUNKS (SUGAR, COCONUT OIL, COCOA, BUTTER OIL, SOY LECITHIN, VANILLA), CORN SYRUP, NATURAL PEPPERMINT EXTRACT, TAPIOCA STARCH, WHEY PROTEIN ISOLATE, MONO- AND DI-GLYCERIDES, GUAR GUM, TARA GUM, CELLULOSE GUM, XANTHAN GUM, CARRAGEENAN, DEXTROSE, VITAMIN A PALMITATE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356471</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ICE CREAM</string>
+		<key>ingredients</key>
+		<string>MILK, CREAM, SUGAR, CORN SYRUP, EGG CUSTARD BASE (EGG YOLK, MILK, CONDENSED MILK, SUGAR, INVERT SUGAR, BUTTER, FRUCTOSE, BROWN SUGAR, NATURAL FLAVOR, SALT, ANNATTO), EGG YOLKS, BOURBON VANILLA EXTRACT, GROUND VANILLA BEANS, CAROB GUM, GUAR GUM.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356472</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>SORBET</string>
+		<key>ingredients</key>
+		<string>WATER, STRAWBERRIES, SUGAR, PINEAPPLE, PECTIN, CITRIC ACID, ASCORBIC ACID, GUAR GUM, LOCUST BEAN GUM.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356473</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>SORBET</string>
+		<key>ingredients</key>
+		<string>WATER, SUGAR, LEMON JUICE, PINEAPPLE, GUAR GUM, LOCUST BEAN GUM, THYME.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356474</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>BLOOD ORANGE SORBET</string>
+		<key>ingredients</key>
+		<string>WATER, SUGAR, BLOOD ORANGE JUICE, PINEAPPLE, GUAR GUM, LOCUST BEAN GUM.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356475</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>GELATO</string>
+		<key>ingredients</key>
+		<string>WHOLE MILK, CREAM, SUGAR, BANANA PUREE, BROWN SUGAR, NONFAT MILK POWDER, BRANDY, CARRAGEENAN, MONO AND DI-GLYCERIDES, GUAR GUM, LOCUST BEAN GUM, SUCROSE, DEXTROSE, FRUCTOSE, BANANAS, NATURAL FLAVOR, TURMERIC EXTRACT, SOY LECITHIN.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356476</string>
+		<key>brand_owner</key>
+		<string>FRESH&amp;EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ICE CREAM, GELATO</string>
+		<key>ingredients</key>
+		<string>WHOLE MILK, CREAM, SUGAR, GLUCOSE SYRUP, COCONUT FLOUR, WATER, NATURAL FLAVOR, CORN STARCH, SKIM MILK POWDER, CITRIC ACID, FUDGE (SUGAR, CANOLA OIL, COCOA, SKIM MILK POWDER, SOY LECITHIN), MONO- AND DI-GLYCERIDES, CARRAGEENAN, GUAR GUM, LOCUST BEAN GUM.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356477</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>GELATO</string>
+		<key>ingredients</key>
+		<string>WHOLE MILK, CREAM, SUGAR, SKIM MILK POWDER, COFFEE, VEGETABLE OIL, COCOA, NATURAL FLAVORS, MONO- AND DI-GLYCERIDES, CARRAGEENAN, GUAR GUM, SOY LECITHIN, LOCUST BEAN GUM.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356478</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>GELATO</string>
+		<key>ingredients</key>
+		<string>WHOLE MILK, SUGAR, CREAM, COCOA PROCESSED WITH ALKALI, SKIM MILK POWDER, COCOA LIQUOR, COCOA BUTTER, SOY LECITHIN, VANILLA EXTRACT, LOCUST BEAN GUM, GUAR GUM, CARRAGEENAN, MONO- AND DI-GLYCERIDES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356479</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>PANKO BREAD CRUMBS JAPANESE STYLE</string>
+		<key>ingredients</key>
+		<string>WHEAT FLOUR, SUGAR, YEAST, SALT.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356480</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, CANOLA OIL</string>
+		<key>ingredients</key>
+		<string>CANOLA OIL.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356481</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, CORN OIL</string>
+		<key>ingredients</key>
+		<string>CORN OIL.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356482</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, TRI COLOR ROTINI</string>
+		<key>ingredients</key>
+		<string>ORGANIC DURUM WHEAT SEMOLINA, DEHYDRATED SPINACH, DEHYDRATED TOMATO, NIACIN, FERROUS LACTATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356483</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ENRICHED MACARONI PRODUCT, ITALIAN ORZO</string>
+		<key>ingredients</key>
+		<string>ORGANIC SEMOLINA, NIACIN, FERROUS LACTATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356484</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; TASTY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>CONCHIGLIE</string>
+		<key>ingredients</key>
+		<string>ORGANIC DURUM WHEAT SEMOLINA, NIACIN, FERROUS LACTATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356485</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>EXCELLENT WITH MUSHROOM SAUCES</string>
+		<key>ingredients</key>
+		<string>ORGANIC DURUM WHEAT SEMOLINA, NIACIN, FERROUS LACTATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356486</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>MACARONI ELBOWS</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356487</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>CUT FIDEO</string>
+		<key>ingredients</key>
+		<string>DURUM SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356488</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>THIN SPAGHETTI</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356489</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FETTUCCINE</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356490</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>SPAGHETTI</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356491</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>SPAGHETTI</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356492</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ROTELLI</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356493</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>WHOLE GRAIN PASTA</string>
+		<key>ingredients</key>
+		<string>WHOLE WHEAT FLOUR, DURUM WHEAT SEMOLINA, DURUM WHEAT FLOUR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356494</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY NEIGHBORHOOD MARKET INC.</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>BROWN RICE SPAGHETTI</string>
+		<key>ingredients</key>
+		<string>BROWN RICE FLOUR, MONOGLYCERIDES, DIGLYCERIDES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356495</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>WHOLE WHEAT SPAGHETTI</string>
+		<key>ingredients</key>
+		<string>WHOLE WHEAT DURUM FLOUR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356496</string>
+		<key>brand_owner</key>
+		<string>FRESH&amp;EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>WHOLE WHEAT ELBOWS, MACARONI</string>
+		<key>ingredients</key>
+		<string>WHOLE WHEAT DURUM FLOUR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356497</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>WHOLE WHEAT MACARONI PRODUCT</string>
+		<key>ingredients</key>
+		<string>WHOLE WHEAT DURUM FLOUR.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356498</string>
+		<key>brand_owner</key>
+		<string>FRESH&amp;EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>BROWN RICE, ROTINI</string>
+		<key>ingredients</key>
+		<string>BROWN RICE FLOUR, MONOGLYCERIDES, DIGLYCERIDES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356499</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>LASAGNA</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMINE MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356500</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>WHOLE GRAIN THIN SPAGHETTI</string>
+		<key>ingredients</key>
+		<string>WHOLE DURUM WHEAT FLOUR, ENRICHED SEMOLINA [SEMOLINA NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID], OAT FIBER.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356501</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>MEDIUM SHELLS</string>
+		<key>ingredients</key>
+		<string>100% ORGANIC SEMOLINA.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356502</string>
+		<key>brand_owner</key>
+		<string>FRESH&amp;EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>WHOLE GRAIN ROTINI</string>
+		<key>ingredients</key>
+		<string>WHOLE DURUM WHEAT FLOUR, ENRICHED SEMOLINA [SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID], OAT FIBER.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356503</string>
+		<key>brand_owner</key>
+		<string>FRESH&amp;EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>PASTA, EXTRA BROAD RIBBONS</string>
+		<key>ingredients</key>
+		<string>ENRICHED DURUM SEMOLINA [SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID], CORN FLOUR, EGG WHITE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356504</string>
+		<key>brand_owner</key>
+		<string>FRESH&amp;EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>WIDE EGG NOODLES</string>
+		<key>ingredients</key>
+		<string>DURUM WHEAT SEMOLINA, DURUM WHEAT FLOUR, EGG YOLK POWDER, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356505</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>LARGE ELBOWS</string>
+		<key>ingredients</key>
+		<string>SEMOLINA, NIACIN, FERROUS SULFATE (IRON), THIAMIN MONONITRATE, RIBOFLAVIN, FOLIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356506</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>THREE CHEESE BLEND</string>
+		<key>ingredients</key>
+		<string>PASTEURIZED PART-SKIM COW&apos;S MILK, SALT, CELLULOSE (TO PREVENT CAKING), CHEESE CULTURE, ENZYMES.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356507</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>PARMESAN CHEESE</string>
+		<key>ingredients</key>
+		<string>PARMESAN CHEESE (PASTEURIZED PART-SKIMMED COW&apos;S MILK, SALT, CHEESE CULTURE, ENZYMES), CELLULOSE (TO PREVENT CAKING).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356508</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ALFREDO SAUCE</string>
+		<key>ingredients</key>
+		<string>WATER, CREAM, PARMESAN CHEESE (MILK, CULTURE, SALT, ENZYME, CELLULOSE), MODIFIED CORNSTARCH, CANOLA OIL, MODIFIED EGG YOLK (EGG YOLK, SALT, PHOSPHOLIPASE), SALT, ROMANO CHEESE (MILK, CULTURE, SALT, ENZYME, CELLULOSE), BUTTER, CHEESE FLAVOR, SUGAR, XANTHAN GUM, ROASTED GARLIC PUREE, ONION POWDER, GARLIC POWDER, BLACK PEPPER, LACTIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356509</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>MARINARA SAUCE WITH ROASTED RED PEPPERS</string>
+		<key>ingredients</key>
+		<string>ORGANIC TOMATO PUREE (WATER, TOMATO PASTE), ORGANIC DICED TOMATOES, ORGANIC ROASTED RED BELL PEPPERS, ORGANIC ROASTED RED PEPPER PUREE, ORGANIC ONIONS, ORGANIC ROASTED GARLIC PUREE, SALT, ORGANIC SOYBEAN OIL, ORGANIC SUGAR, ORGANIC BASIL, ORGANIC OREGANO, ORGANIC BLACK PEPPER, ORGANIC MARJORAM, ORGANIC ROSEMARY, ORGANIC THYME.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356510</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>TOMATO BASIL MARINARA</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE, DICED TOMATOES, BASIL, PURE OLIVE OIL, SALT, CHOPPED ONION, GARLIC POWDER, OREGANO, CHOPPED GARLIC.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356511</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>PASTA SAUCE</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE, DICED TOMATOES, ROASTED GARLIC PUREE, SALT, PURE OLIVE OIL, CHOPPED GARLIC, GARLIC POWDER, ROASTED GARLIC FLAVOR, BASIL, OREGANO.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356512</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>PASTA SAUCE</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE (WATER, TOMATO PASTE), TOMATOES, OLIVE OIL, CARROT PUREE, ONION PUREE, SALT, GARLIC, OREGANO, PARSLEY, BASIL.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356513</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>PIZZA SAUCE</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE, DICED TOMATOES, PURE OLIVE OIL, SALT, OREGANO, MINCED GARLIC, PARSLEY.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356514</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>DICED TOMATOES, WITH GARLIC &amp; OLIVE OIL</string>
+		<key>ingredients</key>
+		<string>TOMATOES. TOMATO JUICE, SUGAR, SALT, DEHYDRATED GARLIC, OLIVE OIL, SPICES, CITRIC ACID, CALCIUM CHLORIDE.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356515</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY ORGANIC</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>DICED TOMATOES</string>
+		<key>ingredients</key>
+		<string>ORGANIC TOMATOES, ORGANIC TOMATO JUICE, SEA SALT,CALCIUM CHLORIDE, CITRIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356516</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>DICED TOMATOES</string>
+		<key>ingredients</key>
+		<string>TOMATOES, TOMATO, JUICE, CALCIUM CHLORIDE, CITRIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356517</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>STEWED TOMATOES</string>
+		<key>ingredients</key>
+		<string>TOMATOES, TOMATO JUICE, SUGAR, SALT, DEHYDRATED ONIONS, DEHYDRATED CELERY, DEHYDRATED PEPPERS, SPICES, CALCIUM CHLORIDE, CITRIC ACID, NATURAL FLAVORINGS.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356518</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>ITALIAN-STYLE STEWED TOMATOES</string>
+		<key>ingredients</key>
+		<string>TOMATOES, TOMATO JUICE, SUGAR, SALT, DEHYDRATED ONIONS, SPICES, DEHYDRATED CELERY, DEHYDRATED PEPPERS, GARLIC, CALCIUM CHLORIDE, CITRIC ACID, NATURAL FLAVORS.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356519</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, PROVENCAL SIMMER SAUCE</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE, TOMATOES, WHITE CHABLIS WINE, GREEN OLIVES (GREEN OLIVES, WATER, SALT, LACTIC ACID), ONIONS, CHICKEN BROTH (CHICKEN BREAST, SALT, YEAST EXTRACT, NATURAL FLAVOR, POTATO FLOUR, SUGAR, TURMERIC), BLACK OLIVES (BLACK OLIVES, WATER, SALT, FERROUS GLUCONATE), OLIVE OIL, GARLIC PUREE (GARLIC, WATER, CITRIC ACID), CORN STARCH, BASIL, THYME, ANCHOVY PASTE (ANCHOVY, SALT, OLIVE OIL, ACETIC ACID).</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356520</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, CACCIATORE SIMMER SAUCE</string>
+		<key>ingredients</key>
+		<string>TOMATO PUREE, TOMATOES, WHITE MUSHROOMS, ONIONS, GREEN BELL PEPPERS, WHITE CHABLIS WINE, SALT, SUGAR, CORN STARCH, OLIVE OIL, GARLIC, THYME, BASIL, OREGANO, BLACK PEPPER, CITRIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356521</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, CREAMY TOMATO ALFREDO SAUCE</string>
+		<key>ingredients</key>
+		<string>WATER, CREAM (CREAM, MILK, DEXTROSE, CARRAGEENAN), CRUSHED TOMATOES, TOMATOES, MODIFIED CORNSTARCH, BUTTER, SUGAR, GARLIC, SALT, ROMANO CHEESE (MILK, CULTURE, SALT, ENZYME, CELLULOSE), BASIL, PARSLEY, LEMON JUICE CONCENTRATE, DEHYDRATED GARLIC, BLACK PEPPER, CITRIC ACID.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356522</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5051380137984</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, PASTA SAUCE WITH IMPORTED TOMATOES &amp; OLIVE OIL</string>
+		<key>ingredients</key>
+		<string>PLUM TOMATOES, TOMATO PASTE, OLIVE OIL, GARLIC, PARSLEY, BASIL, SALT, ONIONS, CRUSHED RED PEPPERS, WHITE PEPPER, OREGANO.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356523</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>5071370190848</string>
+		<key>description</key>
+		<string>FRESH &amp; EASY, PASTA SAUCE WITH IMPORTED ITALIAN TOMATOES &amp; OLIVE OIL</string>
+		<key>ingredients</key>
+		<string>PLUM TOMATOES, TOMATO PASTE, OLIVE OIL, BLACK OLIVES (BLACK OLIVES, WATER, SALT, FERROUS GLUCONATE), CAPERS (CAPERS, DISTILLED VINEGAR, SALT, WATER), KALAMATA OLIVES (KALAMATA OLIVES, WATER, SALT, RED WINE VINEGAR, EXTRA VIRGIN OLIVE OIL), GARLIC, ANCHOVY PASTE (ANCHOVIES, SALT, OLIVE OIL, ACETIC ACID), PARSLEY, BASIL, ONIONS, WHITE PEPPER, CRUSHED RED PEPPERS, OREGANO.</string>
+	</dict>
+	<dict>
+		<key>fdc_id</key>
+		<string>356523</string>
+		<key>brand_owner</key>
+		<string>FRESH &amp; EASY</string>
+		<key>gtin_upc</key>
+		<string>9310034000503</string>
+		<key>description</key>
+		<string>Belvita breakfast</string>
+		<key>ingredients</key>
+		<string>Wheat FLOUR</string>
+	</dict>
+</array>
+</plist>
