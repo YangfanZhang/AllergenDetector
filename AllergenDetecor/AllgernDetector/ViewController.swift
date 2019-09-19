@@ -8,75 +8,81 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UIImagePickerControllerDelegate, UINavigationControllerDelegate, LBXScanViewControllerDelegate {
-    var tableView: UITableView!
+class ViewController: UIViewController, UITableViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, LBXScanViewControllerDelegate {
+    //var tableView: UITableView!
     
-    var arrayItems: Array<Array<String>> = [
-        ["Scan"],
-    ]
+    //var arrayItems: Array<Array<String>> = [
+    //    ["Scan"],
+    //]
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView = UITableView(frame: CGRect(x: 0, y: 20, width: view.frame.width, height: view.frame.height))
-        self.title = "Allergen Detector"
-        tableView.delegate = self
-        tableView.dataSource = self
-        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
-        view.addSubview(tableView)
+//        tableView = UITableView(frame: CGRect(x: 0, y: 20, width: view.frame.width, height: view.frame.height))
+//        self.title = "Allergen Detector"
+//        tableView.delegate = self
+//        tableView.dataSource = self
+//        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
+//        view.addSubview(tableView)
     }
     
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return arrayItems.count
+    
+    @IBAction func scanButton(_ sender: UIButton) {
+        self.qqStyle()
     }
     
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath as IndexPath)
-        // Configure the cell...
-        cell.textLabel?.text = arrayItems[indexPath.row].first
-        
-        return cell
-    }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        //objc_msgSend对应方法好像没有
-        
-        if indexPath.row == 10 {
-            openLocalPhotoAlbum()
-            return
-        }
-        
-        switch indexPath.row {
-        case 0:
-            self.qqStyle()
-        case 1:
-            self.ZhiFuBaoStyle()
-        case 2:
-            self.weixinStyle()
-        case 3:
-            self.InnerStyle()
-        case 4:
-            self.OnStyle()
-        case 5:
-            self.changeColor()
-        case 6:
-            self.recoCropRect()
-        case 7:
-            self.changeSize()
-        case 8:
-            self.notSquare()
-        case 9:
-            self.myCode()
-        case 10:
-            self.openLocalPhotoAlbum()
-        default:
-            break
-        }
-        
-        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
-        
-    }
     
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        // #warning Incomplete implementation, return the number of rows
+//        return arrayItems.count
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath as IndexPath)
+//        // Configure the cell...
+//        cell.textLabel?.text = arrayItems[indexPath.row].first
+//
+//        return cell
+//    }
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//
+//        //objc_msgSend对应方法好像没有
+//
+//        if indexPath.row == 10 {
+//            openLocalPhotoAlbum()
+//            return
+//        }
+//
+//        switch indexPath.row {
+//        case 0:
+//            self.qqStyle()
+//        case 1:
+//            self.ZhiFuBaoStyle()
+//        case 2:
+//            self.weixinStyle()
+//        case 3:
+//            self.InnerStyle()
+//        case 4:
+//            self.OnStyle()
+//        case 5:
+//            self.changeColor()
+//        case 6:
+//            self.recoCropRect()
+//        case 7:
+//            self.changeSize()
+//        case 8:
+//            self.notSquare()
+//        case 9:
+//            self.myCode()
+//        case 10:
+//            self.openLocalPhotoAlbum()
+//        default:
+//            break
+//        }
+//        tableView.deselectRow(at: indexPath as IndexPath, animated: true)
+//    }
+//
     // MARK: - ---模仿qq扫码界面---------
     func qqStyle() {
         print("qqStyle")

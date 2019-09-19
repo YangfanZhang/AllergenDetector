@@ -21,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //        window?.rootViewController =  UINavigationController(rootViewController: MainTableViewController())
         //
         //        window?.makeKeyAndVisible();
+        UITabBar.appearance().barTintColor = .black
+        UITabBar.appearance().tintColor = UIColor(red:255/255, green: 206/255, blue: 78/255, alpha: 1)
         return true
     }
     
