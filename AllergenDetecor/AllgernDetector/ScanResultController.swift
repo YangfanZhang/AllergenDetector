@@ -78,7 +78,7 @@ class ScanResultController: UIViewController {
         }
     func getDataForDate(data:String)->(Array<[String:String]>)
         {
-            let array = getSwiftArrayFromPlist(name: "Sheet1")
+            let array = getSwiftArrayFromPlist(name: "FoodInfo")
             let namePredicate = NSPredicate(format: "gtin_upc = %@", data)
             return [array.filter {namePredicate.evaluate(with: $0)}[0]]
         }

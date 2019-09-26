@@ -74,8 +74,8 @@
 		1C84ADA92271E2CD00785CAA /* QQScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C84ADA52271E2CC00785CAA /* QQScanViewController.swift */; };
 		1C84ADAB2271E2CD00785CAA /* MyCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C84ADA72271E2CC00785CAA /* MyCodeViewController.swift */; };
 		1C84ADB72271E9BE00785CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C84ADB52271E9BE00785CAA /* Main.storyboard */; };
+		1C9B2671233C76F200D7C252 /* FoodInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B2670233C76F200D7C252 /* FoodInfo.plist */; };
 		1CB643E52329E68E007467EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB643E42329E68E007467EC /* Assets.xcassets */; };
-		1CB643EB2329ECA0007467EC /* Sheet1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CB643EA2329ECA0007467EC /* Sheet1.plist */; };
 		1CE510C2230D7AC5004FBE79 /* GetIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CE510C1230D7AC5004FBE79 /* GetIngredient.swift */; };
 /* End PBXBuildFile section */
 
@@ -149,8 +149,8 @@
 		1C84ADA52271E2CC00785CAA /* QQScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQScanViewController.swift; sourceTree = "<group>"; };
 		1C84ADA72271E2CC00785CAA /* MyCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCodeViewController.swift; sourceTree = "<group>"; };
 		1C84ADB52271E9BE00785CAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		1C9B2670233C76F200D7C252 /* FoodInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FoodInfo.plist; path = ../../../Data/PlistFiles/FoodInfo.plist; sourceTree = "<group>"; };
 		1CB643E42329E68E007467EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1CB643EA2329ECA0007467EC /* Sheet1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Sheet1.plist; sourceTree = "<group>"; };
 		1CE510C1230D7AC5004FBE79 /* GetIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetIngredient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -250,7 +250,7 @@
 				1C84ADA52271E2CC00785CAA /* QQScanViewController.swift */,
 				1C84ADA42271E2CC00785CAA /* CodeScan.bundle */,
 				1C84AD7F2271E14500785CAA /* ViewController.swift */,
-				1CB643EA2329ECA0007467EC /* Sheet1.plist */,
+				1C9B2670233C76F200D7C252 /* FoodInfo.plist */,
 				1C84ADB52271E9BE00785CAA /* Main.storyboard */,
 				1C0027D92331FCC800E99C6B /* Fonts */,
 				1CB643E42329E68E007467EC /* Assets.xcassets */,
@@ -342,7 +342,6 @@
 				1C0027D42331FC9C00E99C6B /* SF-Pro-Text-Regular.otf in Resources */,
 				1C0027D12331FC9C00E99C6B /* SF-Pro-Display-Ultralight.otf in Resources */,
 				1C0027D62331FC9C00E99C6B /* SF-Pro-Text-MediumItalic.otf in Resources */,
-				1CB643EB2329ECA0007467EC /* Sheet1.plist in Resources */,
 				1C0027D82331FC9C00E99C6B /* SFCompactText-Light.otf in Resources */,
 				1C0027BA2331FC9C00E99C6B /* SFCompactDisplay-Bold.otf in Resources */,
 				1C0027B02331FC9C00E99C6B /* SF-Pro-Display-Thin.otf in Resources */,
@@ -375,6 +374,7 @@
 				1C0027CA2331FC9C00E99C6B /* SFCompactText-Heavy.otf in Resources */,
 				1C0027AA2331FC9C00E99C6B /* SF-Pro-Display-HeavyItalic.otf in Resources */,
 				1C0027C32331FC9C00E99C6B /* SFCompactDisplay-Black.otf in Resources */,
+				1C9B2671233C76F200D7C252 /* FoodInfo.plist in Resources */,
 				1C0027CD2331FC9C00E99C6B /* SF-Pro-Display-ThinItalic.otf in Resources */,
 				1C0027BD2331FC9C00E99C6B /* SF-Pro-Display-Regular.otf in Resources */,
 				1C0027A72331FC9C00E99C6B /* SFCompactDisplay-Regular.otf in Resources */,
