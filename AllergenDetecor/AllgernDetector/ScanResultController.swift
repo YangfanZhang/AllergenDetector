@@ -34,9 +34,9 @@ class ScanResultController: UIViewController {
         super.viewDidAppear(animated)
 
         codeImg.image = codeResult?.imgScanned
-        var allergenInfo = getDataForDate(data: (codeResult?.strScanned)!);
+        var allergenInfo = getAllergenInfo(data: (codeResult?.strScanned)!);
         //codeTypeLabel.text = "Barcode type:" + (codeResult?.strBarCodeType)!
-        codeTypeLabel.text = allergenInfo[0]["description"];
+        codeTypeLabel.text = allergenInfo[0]["ingredients"];
         codeStringLabel.text = "Barcode number:" + (codeResult?.strScanned)!
         let barcode = (codeResult?.strScanned)!
         if codeImg.image != nil {
@@ -76,9 +76,9 @@ class ScanResultController: UIViewController {
             let arr = NSArray(contentsOfFile: path!)
             return (arr as? Array<Dictionary<String,String>>)!
         }
-    func getDataForDate(data:String)->(Array<[String:String]>)
+    func getAllergenInfo(data:String)->(Array<[String:String]>)
         {
-            let array = getSwiftArrayFromPlist(name: "FoodInfo")
+            let array = getSwiftArrayFromPlist(name: "Sheet1")
             let namePredicate = NSPredicate(format: "gtin_upc = %@", data)
             return [array.filter {namePredicate.evaluate(with: $0)}[0]]
         }
