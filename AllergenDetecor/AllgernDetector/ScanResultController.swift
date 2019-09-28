@@ -20,31 +20,26 @@ class ScanResultController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.edgesForExtendedLayout = UIRectEdge(rawValue: 0)
-
         codeTypeLabel.text = ""
         codeStringLabel.text = ""
-
-        
-        // Do any additional setup after loading the view.
+        //loadProducts()
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-
         codeImg.image = codeResult?.imgScanned
         var allergenInfo = getAllergenInfo(data: (codeResult?.strScanned)!);
         //codeTypeLabel.text = "Barcode type:" + (codeResult?.strBarCodeType)!
         codeTypeLabel.text = allergenInfo[0]["ingredients"];
         codeStringLabel.text = "Barcode number:" + (codeResult?.strScanned)!
-        let barcode = (codeResult?.strScanned)!
+        
         if codeImg.image != nil {
         }
         //print(getDataForDate(data: barcode))
-
     }
     
+   
     func zoomRect( rect:inout CGRect, srcImg: UIImage) {
         rect.origin.x -= 10
         rect.origin.y -= 10

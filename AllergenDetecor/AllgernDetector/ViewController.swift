@@ -25,6 +25,7 @@ class ViewController: UIViewController, UITableViewDelegate, UIImagePickerContro
 //        tableView.dataSource = self
 //        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: "reuseIdentifier")
 //        view.addSubview(tableView)
+        loadProducts()
     }
     
     
@@ -32,6 +33,16 @@ class ViewController: UIViewController, UITableViewDelegate, UIImagePickerContro
         self.qqStyle()
     }
     
+     private let session: URLSession = .shared    
+       func loadProducts()
+    {
+        //let barcode = (codeResult?.strScanned)!
+        let url = URL(string: "https://world.openfoodfacts.org/api/v0/product/737628064502.json")
+        let task = session.dataTask(with: url!) {(data, response, error) in
+            print("Info received: \(String(describing: data))")
+        }
+        task.resume()
+    }
     
 //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
 //        // #warning Incomplete implementation, return the number of rows
