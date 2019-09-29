@@ -15,7 +15,7 @@ class ScanResultController: UIViewController {
     @IBOutlet weak var codeStringLabel: UILabel!
     @IBOutlet weak var concreteCodeImg: UIImageView!
     @IBOutlet weak var IngredientLabel: UILabel!
-
+    @IBOutlet weak var Allergens: UILabel!
     var codeResult: LBXScanResult?
 
     override func viewDidLoad() {
@@ -25,23 +25,23 @@ class ScanResultController: UIViewController {
 
         codeTypeLabel.text = ""
         codeStringLabel.text = ""
-
+        Allergens.text = ""
         
         // Do any additional setup after loading the view.
     }
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-
         codeImg.image = codeResult?.imgScanned
-        var allergenInfo = getAllergenInfo(data: (codeResult?.strScanned)!);
-        //codeTypeLabel.text = "Barcode type:" + (codeResult?.strBarCodeType)!
-        codeTypeLabel.text = allergenInfo[0]["ingredients"];
-        codeStringLabel.text = "Barcode number:" + (codeResult?.strScanned)!
-        let barcode = (codeResult?.strScanned)!
         if codeImg.image != nil {
         }
-        //print(getDataForDate(data: barcode))
+        
+        var allergenInfo = getAllergenInfo(data: (codeResult?.strScanned)!);
+        //codeTypeLabel.text = "Barcode type:" + (codeResult?.strBarCodeType)!
+        codeTypeLabel.text = "Ingredients:" + (allergenInfo[0]["ingredients"]!);
+        codeStringLabel.text = "Barcode number:" + (codeResult?.strScanned)!
+        //let barcode = (codeResult?.strScanned)!
+        Allergens.text = "Allergens:" + (allergenInfo[0]["ingredients"]!);
 
     }
     

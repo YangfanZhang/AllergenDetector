@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScanResultController" customModule="AllgernDetector" customModuleProvider="target">
             <connections>
+                <outlet property="Allergens" destination="SBV-Vp-q6l" id="XON-ms-i5b"/>
                 <outlet property="codeImg" destination="fg4-Ct-oKK" id="3qT-G0-jkT"/>
                 <outlet property="codeStringLabel" destination="FYu-Sd-42q" id="3Qn-82-Vt7"/>
                 <outlet property="codeTypeLabel" destination="xvo-Et-qv7" id="blH-ps-xCh"/>
@@ -22,44 +21,51 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Barcode number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYu-Sd-42q">
-                    <rect key="frame" x="28" y="432" width="303" height="21"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barcode number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYu-Sd-42q">
+                    <rect key="frame" x="20" y="417" width="335" height="50"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="21" id="MJs-cF-uBO"/>
+                        <constraint firstAttribute="height" constant="50" id="o8s-8W-2hn"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvo-Et-qv7">
-                    <rect key="frame" x="28" y="363" width="308" height="21"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="21" id="BZR-b5-hKG"/>
-                    </constraints>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvo-Et-qv7">
+                    <rect key="frame" x="20" y="359" width="335" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fg4-Ct-oKK">
-                    <rect key="frame" x="82" y="123" width="200" height="149"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fg4-Ct-oKK">
+                    <rect key="frame" x="80" y="138" width="215" height="149"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="149" id="YAA-yR-3bN"/>
+                        <constraint firstAttribute="height" constant="149" id="0aN-Fl-zm6"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Barcode number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBV-Vp-q6l">
+                    <rect key="frame" x="20" y="511" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="bE3-LK-mdO"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="xvo-Et-qv7" secondAttribute="trailing" constant="36" id="9qS-OJ-YJF"/>
-                <constraint firstItem="xvo-Et-qv7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="31" id="A0B-Ed-FSZ"/>
-                <constraint firstAttribute="trailing" secondItem="FYu-Sd-42q" secondAttribute="trailing" constant="41" id="NoW-6u-jqR"/>
-                <constraint firstAttribute="bottom" secondItem="FYu-Sd-42q" secondAttribute="bottom" constant="41" id="PfM-IC-vPU"/>
-                <constraint firstItem="fg4-Ct-oKK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="88" id="Z5I-XE-TPb"/>
-                <constraint firstItem="fg4-Ct-oKK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="28" id="eMz-tv-PbA"/>
-                <constraint firstItem="FYu-Sd-42q" firstAttribute="top" secondItem="xvo-Et-qv7" secondAttribute="bottom" constant="18" id="feP-4W-bmN"/>
-                <constraint firstAttribute="trailing" secondItem="fg4-Ct-oKK" secondAttribute="trailing" constant="87" id="qZg-aA-K8A"/>
-                <constraint firstItem="FYu-Sd-42q" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="31" id="ulY-o2-jvY"/>
+                <constraint firstItem="xvo-Et-qv7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Fnf-Od-ybd"/>
+                <constraint firstAttribute="bottom" secondItem="SBV-Vp-q6l" secondAttribute="bottom" constant="100" id="Lb4-IN-Wot"/>
+                <constraint firstItem="fg4-Ct-oKK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="Z5I-XE-TPb"/>
+                <constraint firstItem="FYu-Sd-42q" firstAttribute="leading" secondItem="xvo-Et-qv7" secondAttribute="leading" id="hUX-oz-QLH"/>
+                <constraint firstItem="FYu-Sd-42q" firstAttribute="top" secondItem="xvo-Et-qv7" secondAttribute="bottom" constant="40" id="jER-MS-bnV"/>
+                <constraint firstAttribute="trailing" secondItem="fg4-Ct-oKK" secondAttribute="trailing" constant="80" id="qZg-aA-K8A"/>
+                <constraint firstAttribute="bottom" secondItem="FYu-Sd-42q" secondAttribute="bottom" constant="200" id="rbM-LH-FuX"/>
+                <constraint firstAttribute="trailing" secondItem="xvo-Et-qv7" secondAttribute="trailing" constant="20" id="tQF-Li-KGk"/>
+                <constraint firstItem="FYu-Sd-42q" firstAttribute="trailing" secondItem="xvo-Et-qv7" secondAttribute="trailing" id="tWh-NO-1S8"/>
+                <constraint firstItem="xvo-Et-qv7" firstAttribute="top" secondItem="fg4-Ct-oKK" secondAttribute="bottom" constant="72" id="zdJ-Gc-eRV"/>
             </constraints>
-            <point key="canvasLocation" x="327" y="421"/>
+            <point key="canvasLocation" x="245.59999999999999" y="367.46626686656674"/>
         </view>
     </objects>
 </document>
