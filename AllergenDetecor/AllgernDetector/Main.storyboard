@@ -155,7 +155,7 @@
                                 <rect key="frame" x="287" y="151" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="DiaryToggle:" destination="v6x-1S-Dhb" eventType="valueChanged" id="vNh-hu-PLS"/>
+                                    <action selector="DiarySwitchEvent:" destination="v6x-1S-Dhb" eventType="valueChanged" id="VFI-Qq-sxF"/>
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Diary" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4c-9P-OZ4">
@@ -170,7 +170,8 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Account" image="Icon" landscapeImage="Icon" largeContentSizeImage="Icon" id="gt5-JY-AQ3"/>
                     <connections>
-                        <outlet property="DiaryToggle" destination="fim-UU-ewK" id="CPm-jh-QWc"/>
+                        <outlet property="DiaryLabel" destination="h4c-9P-OZ4" id="T0L-v8-Ppn"/>
+                        <outlet property="DiarySwitch" destination="fim-UU-ewK" id="lD1-wP-hwh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wRe-Gb-vKv" userLabel="First Responder" sceneMemberID="firstResponder"/>

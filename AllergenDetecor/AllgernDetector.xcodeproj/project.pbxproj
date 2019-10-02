@@ -76,6 +76,7 @@
 		1C84ADB72271E9BE00785CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C84ADB52271E9BE00785CAA /* Main.storyboard */; };
 		1C9B2673233DD1AD00D7C252 /* Sheet1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C9B2672233DD1AD00D7C252 /* Sheet1.plist */; };
 		1C9B2679233F40ED00D7C252 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B2678233F40ED00D7C252 /* AccountViewController.swift */; };
+		1C9B267D2340628900D7C252 /* AllergenSynonyms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9B267C2340628900D7C252 /* AllergenSynonyms.swift */; };
 		1CB643E52329E68E007467EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CB643E42329E68E007467EC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -151,6 +152,7 @@
 		1C84ADB52271E9BE00785CAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		1C9B2672233DD1AD00D7C252 /* Sheet1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Sheet1.plist; path = ../../../Data/Sheet1.plist; sourceTree = "<group>"; };
 		1C9B2678233F40ED00D7C252 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		1C9B267C2340628900D7C252 /* AllergenSynonyms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergenSynonyms.swift; sourceTree = "<group>"; };
 		1CB643E42329E68E007467EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -257,6 +259,7 @@
 				1C84AD862271E14700785CAA /* LaunchScreen.storyboard */,
 				1C84AD892271E14700785CAA /* Info.plist */,
 				1C9B2678233F40ED00D7C252 /* AccountViewController.swift */,
+				1C9B267C2340628900D7C252 /* AllergenSynonyms.swift */,
 			);
 			path = AllgernDetector;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				1C84AD802271E14500785CAA /* ViewController.swift in Sources */,
 				1C84AD9F2271E22700785CAA /* LBXScanWrapper.swift in Sources */,
 				1C84ADA32271E2BB00785CAA /* ScanResultController.swift in Sources */,
+				1C9B267D2340628900D7C252 /* AllergenSynonyms.swift in Sources */,
 				1C84ADA92271E2CD00785CAA /* QQScanViewController.swift in Sources */,
 				1C84AD9C2271E22700785CAA /* LBXScanLineAnimation.swift in Sources */,
 				1C84AD992271E22700785CAA /* LBXScanNetAnimation.swift in Sources */,

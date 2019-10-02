@@ -9,7 +9,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScanResultController" customModule="AllgernDetector" customModuleProvider="target">
             <connections>
-                <outlet property="Allergens" destination="SBV-Vp-q6l" id="XON-ms-i5b"/>
+                <outlet property="FullIngredientsLabel" destination="h7D-is-fTP" id="Cg6-dV-5vy"/>
+                <outlet property="OtherAllergensLabel" destination="SBV-Vp-q6l" id="HpC-BI-FKS"/>
                 <outlet property="codeImg" destination="fg4-Ct-oKK" id="3qT-G0-jkT"/>
                 <outlet property="codeStringLabel" destination="FYu-Sd-42q" id="3Qn-82-Vt7"/>
                 <outlet property="codeTypeLabel" destination="xvo-Et-qv7" id="blH-ps-xCh"/>
@@ -21,7 +22,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Barcode number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYu-Sd-42q">
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Allergens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYu-Sd-42q">
                     <rect key="frame" x="20" y="417" width="335" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="o8s-8W-2hn"/>
@@ -30,20 +31,14 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvo-Et-qv7">
-                    <rect key="frame" x="20" y="359" width="335" height="18"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Product Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xvo-Et-qv7">
+                    <rect key="frame" x="20" y="251" width="335" height="50"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fg4-Ct-oKK">
-                    <rect key="frame" x="80" y="138" width="215" height="149"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="149" id="0aN-Fl-zm6"/>
-                    </constraints>
-                </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Barcode number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBV-Vp-q6l">
-                    <rect key="frame" x="20" y="511" width="335" height="50"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Other Allergens" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SBV-Vp-q6l">
+                    <rect key="frame" x="20" y="485" width="335" height="50"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="50" id="bE3-LK-mdO"/>
                     </constraints>
@@ -51,11 +46,31 @@
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Full Ingredients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7D-is-fTP">
+                    <rect key="frame" x="24" y="556" width="335" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="nbK-I6-HF5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fg4-Ct-oKK">
+                    <rect key="frame" x="80" y="30" width="215" height="149"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="149" id="0aN-Fl-zm6"/>
+                    </constraints>
+                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="fg4-Ct-oKK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="EVv-jn-9Zz"/>
                 <constraint firstItem="xvo-Et-qv7" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Fnf-Od-ybd"/>
-                <constraint firstAttribute="bottom" secondItem="SBV-Vp-q6l" secondAttribute="bottom" constant="100" id="Lb4-IN-Wot"/>
+                <constraint firstItem="h7D-is-fTP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="24" id="IlP-z4-niC"/>
+                <constraint firstItem="h7D-is-fTP" firstAttribute="top" secondItem="SBV-Vp-q6l" secondAttribute="bottom" constant="19" id="KbW-6R-m9I"/>
+                <constraint firstAttribute="bottom" secondItem="SBV-Vp-q6l" secondAttribute="bottom" constant="130" id="Lb4-IN-Wot"/>
+                <constraint firstItem="SBV-Vp-q6l" firstAttribute="trailing" secondItem="FYu-Sd-42q" secondAttribute="trailing" id="NDH-rE-OU1"/>
+                <constraint firstItem="SBV-Vp-q6l" firstAttribute="leading" secondItem="FYu-Sd-42q" secondAttribute="leading" id="NtS-Hv-eW2"/>
                 <constraint firstItem="fg4-Ct-oKK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="Z5I-XE-TPb"/>
                 <constraint firstItem="FYu-Sd-42q" firstAttribute="leading" secondItem="xvo-Et-qv7" secondAttribute="leading" id="hUX-oz-QLH"/>
                 <constraint firstItem="FYu-Sd-42q" firstAttribute="top" secondItem="xvo-Et-qv7" secondAttribute="bottom" constant="40" id="jER-MS-bnV"/>
@@ -63,6 +78,7 @@
                 <constraint firstAttribute="bottom" secondItem="FYu-Sd-42q" secondAttribute="bottom" constant="200" id="rbM-LH-FuX"/>
                 <constraint firstAttribute="trailing" secondItem="xvo-Et-qv7" secondAttribute="trailing" constant="20" id="tQF-Li-KGk"/>
                 <constraint firstItem="FYu-Sd-42q" firstAttribute="trailing" secondItem="xvo-Et-qv7" secondAttribute="trailing" id="tWh-NO-1S8"/>
+                <constraint firstItem="h7D-is-fTP" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailingMargin" id="teC-nE-2hH"/>
                 <constraint firstItem="xvo-Et-qv7" firstAttribute="top" secondItem="fg4-Ct-oKK" secondAttribute="bottom" constant="72" id="zdJ-Gc-eRV"/>
             </constraints>
             <point key="canvasLocation" x="245.59999999999999" y="367.46626686656674"/>
