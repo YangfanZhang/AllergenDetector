@@ -36,14 +36,45 @@ class ScanResultController: UIViewController {
         if codeImg.image != nil {
         }
         
-        let allergenInfo = getAllergenInfo(data: (codeResult?.strScanned)!);
-        codeTypeLabel.text = "Product Name:" + (allergenInfo[0]["description"]!);
-        FullIngredientsLabel.text = "Full Ingredients:" + (allergenInfo[0]["ingredients"]!);
-        codeStringLabel.text = "Your Allergens:";
-        OtherAllergensLabel.text = "Other Allergens:" ;
+        let productInfo = getProductInfo(data: (codeResult?.strScanned)!);
+        let productIngredient = productInfo[0]["ingredients"]!
+        let productName = productInfo[0]["description"]!
+        let userAllergensInProduct = getUserAllergensInProduct(ingredients: productIngredient, allergens: userAllergens)
+        let allAllergensInProduct = getAllAllergensInProduct(ingredients: productIngredient, allAllergens: AllergenSynonyms.allAllergensSynonyms)
+        codeTypeLabel.text = "Product Name:" + (productName);
+        FullIngredientsLabel.text = "Full Ingredients:" + (productIngredient);
+        
+        codeStringLabel.text = "Your Allergens:" + (userAllergensInProduct);
+        OtherAllergensLabel.text = "Other Allergens:" + (allAllergensInProduct);
         dump(userAllergens)
     }
     
+    func getAllAllergensInProduct(ingredients: String, allAllergens: Array<String> )-> (String)
+    {
+        var result = [String]()
+        for item in allAllergens
+        {
+            if(ingredients.containsIgnoringCase(find: item))
+            {
+                result.addObjectIfNew(item)
+            }
+        }
+        return result.joined(separator: ",")
+    }
+    
+    
+    func getUserAllergensInProduct(ingredients: String, allergens: Array<String> )->(String)
+    {
+        var result = [String]()
+        for item in allergens
+        {
+            if(ingredients.containsIgnoringCase(find: item))
+          {
+            result.addObjectIfNew(item)
+          }
+        }
+        return result.joined(separator: ",")
+    }
     
     func getSwiftArrayFromPlist(name: String)->(Array<Dictionary<String,String>>)
         {
@@ -51,7 +82,7 @@ class ScanResultController: UIViewController {
             let arr = NSArray(contentsOfFile: path!)
             return (arr as? Array<Dictionary<String,String>>)!
         }
-    func getAllergenInfo(data:String)->(Array<[String:String]>)
+    func getProductInfo(data:String)->(Array<[String:String]>)
         {
             let array = getSwiftArrayFromPlist(name: "Sheet1")
             let namePredicate = NSPredicate(format: "gtin_upc = %@", data)
@@ -83,4 +114,12 @@ class ScanResultController: UIViewController {
     }
 }
 
+extension String {
+    func contains(find: String) -> Bool{
+        return self.range(of: find) != nil
+    }
+    func containsIgnoringCase(find: String) -> Bool{
+        return self.range(of: find, options: .caseInsensitive) != nil
+    }
+}
 

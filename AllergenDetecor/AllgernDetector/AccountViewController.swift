@@ -20,12 +20,63 @@ class AccountViewController: UIViewController
     @IBAction func DiarySwitchEvent(_ sender: UISwitch) {
         updateDiarySwitchState()
     }
+    
+    @IBOutlet weak var PeanutLabel: UILabel!
+    @IBOutlet weak var PeanutSwitch: UISwitch!
+    @IBAction func PeanutSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    @IBOutlet weak var TreeNutLabel: UILabel!
+    @IBOutlet weak var TreeNutSwitch: UISwitch!
+    @IBAction func TreeNutsSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    
+    @IBOutlet weak var EggsLabel: UILabel!
+    @IBOutlet weak var EggsSwitch: UISwitch!
+    @IBAction func EggsSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    
+    @IBOutlet weak var SesameLabel: UILabel!
+    @IBOutlet weak var SesameSwitch: UISwitch!
+    @IBAction func SesameSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    @IBOutlet weak var FishLabel: UILabel!
+    @IBOutlet weak var FishSwitch: UISwitch!
+    @IBAction func FishSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    
+    @IBOutlet weak var ShellfishLabel: UILabel!
+    @IBOutlet weak var ShellfishSwitch: UISwitch!
+    @IBAction func ShellfishSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    @IBOutlet weak var SoyLabel: UILabel!
+    @IBOutlet weak var SoySwitch: UISwitch!
+    @IBAction func SoySwitchEvent(_ sender: UISwitch) {
+    }
+    
+    
+    @IBOutlet weak var WheatLabel: UILabel!
+    @IBOutlet weak var WheatSwitch: UISwitch!
+    @IBAction func WheatSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    
+    @IBOutlet weak var LupinLabel: UILabel!
+    @IBOutlet weak var LupinSwitch: UISwitch!
+    @IBAction func LupinSwitchEvent(_ sender: UISwitch) {
+    }
+    
+    
     override func viewDidLoad(){
         super.viewDidLoad()
         updateDiarySwitchState()
     }
-    
-    
+        
     func updateDiarySwitchState()
     {
         if DiarySwitch.isOn
