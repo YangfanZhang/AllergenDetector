@@ -25,9 +25,8 @@ class ScanResultController: UIViewController {
 
         codeTypeLabel.text = ""
         codeStringLabel.text = ""
-        //OtherAllergensLabel.text = ""
+        OtherAllergensLabel.text = ""
         FullIngredientsLabel.text = ""
-        // Do any additional setup after loading the view.
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -41,14 +40,33 @@ class ScanResultController: UIViewController {
         let productName = productInfo[0]["description"]!
         let userAllergensInProduct = getUserAllergensInProduct(ingredients: productIngredient, allergens: userAllergens)
         let allAllergensInProduct = getAllAllergensInProduct(ingredients: productIngredient, allAllergens: AllergenSynonyms.allAllergensSynonyms)
+        let otherAllergens = getOtherAllergensInProduct(allAllgergens: allAllergensInProduct, userAllergensInProduct: userAllergensInProduct)
         codeTypeLabel.text = "Product Name:" + (productName);
         FullIngredientsLabel.text = "Full Ingredients:" + (productIngredient);
         
         codeStringLabel.text = "Your Allergens:" + (userAllergensInProduct);
-        OtherAllergensLabel.text = "Other Allergens:" + (allAllergensInProduct);
-        dump(userAllergens)
+        OtherAllergensLabel.text = "Other Allergens:" + (otherAllergens);
+        dump(allAllergensInProduct)
+        print("---")
+        dump(userAllergensInProduct)
     }
     
+    func getOtherAllergensInProduct(allAllgergens: String, userAllergensInProduct: String) -> (String)
+    {
+        let arrayUser = userAllergensInProduct.components(separatedBy: ",")
+        var arrayAll = allAllgergens.components(separatedBy: ",")
+        
+        for item in arrayUser
+        {
+            if(allAllgergens.containsIgnoringCase(find: item))
+            {
+                arrayAll.removeIfObjectExist(item)
+            }
+        }
+        return arrayAll.joined(separator: ",")
+    }
+    
+
     func getAllAllergensInProduct(ingredients: String, allAllergens: Array<String> )-> (String)
     {
         var result = [String]()
