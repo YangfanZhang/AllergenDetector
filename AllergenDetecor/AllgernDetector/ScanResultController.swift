@@ -1,11 +1,3 @@
-//
-//  ScanResultController.swift
-//  swiftScan
-//
-//  Created by xialibing on 15/12/11.
-//  Copyright © 2015年 xialibing. All rights reserved.
-//
-
 import UIKit
 
 class ScanResultController: UIViewController {
@@ -34,12 +26,12 @@ class ScanResultController: UIViewController {
         codeImg.image = codeResult?.imgScanned
         if codeImg.image != nil {
         }
-        
         let productInfo = getProductInfo(data: (codeResult?.strScanned)!);
         let productIngredient = productInfo[0]["ingredients"]!
         let productName = productInfo[0]["description"]!
-        let userAllergensInProduct = getUserAllergensInProduct(ingredients: productIngredient, allergens: userAllergens)
-        let allAllergensInProduct = getAllAllergensInProduct(ingredients: productIngredient, allAllergens: AllergenSynonyms.allAllergensSynonyms)
+        let productIngredientArray = productIngredient.components(separatedBy: ",")
+        let userAllergensInProduct = getUserAllergensInProduct(ingredientArray: productIngredientArray, allAllergens: userAllergens)
+        let allAllergensInProduct = getAllAllergensInProduct(ingredientArray: productIngredientArray, allAllergens: AllergenSynonyms.allAllergensSynonyms)
         let otherAllergens = getOtherAllergensInProduct(allAllgergens: allAllergensInProduct, userAllergensInProduct: userAllergensInProduct)
         codeTypeLabel.text = "Product Name:" + (productName);
         FullIngredientsLabel.text = "Full Ingredients:" + (productIngredient);
@@ -66,30 +58,35 @@ class ScanResultController: UIViewController {
         return arrayAll.joined(separator: ",")
     }
     
-
-    func getAllAllergensInProduct(ingredients: String, allAllergens: Array<String> )-> (String)
+    func getAllAllergensInProduct(ingredientArray: Array<String>, allAllergens: Array<String> )-> (String)
     {
         var result = [String]()
         for item in allAllergens
         {
-            if(ingredients.containsIgnoringCase(find: item))
+            for ingredient in ingredientArray
             {
-                result.addObjectIfNew(item)
+                if(ingredient.containsIgnoringCase(find: item))
+                {
+                    result.addObjectIfNew(ingredient)
+                }
             }
+
         }
         return result.joined(separator: ",")
     }
-    
-    
-    func getUserAllergensInProduct(ingredients: String, allergens: Array<String> )->(String)
+        
+    func getUserAllergensInProduct(ingredientArray: Array<String>, allAllergens: Array<String> )->(String)
     {
         var result = [String]()
-        for item in allergens
+        for item in allAllergens
         {
-            if(ingredients.containsIgnoringCase(find: item))
-          {
-            result.addObjectIfNew(item)
-          }
+            for ingredient in ingredientArray
+            {
+                  if(ingredient.containsIgnoringCase(find: item))
+                {
+                  result.addObjectIfNew(ingredient)
+                }
+            }
         }
         return result.joined(separator: ",")
     }
