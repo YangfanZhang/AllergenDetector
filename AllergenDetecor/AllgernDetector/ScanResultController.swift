@@ -26,9 +26,10 @@ class ScanResultController: UIViewController {
         codeImg.image = codeResult?.imgScanned
         if codeImg.image != nil {
         }
+        let start = DispatchTime.now()
         let productInfo = getProductInfo(data: (codeResult?.strScanned)!);
-        let productIngredient = productInfo[0]["ingredients"]!
-        let productName = productInfo[0]["description"]!
+        let productIngredient = productInfo["ingredients"]!
+        let productName = productInfo["description"]!
         let productIngredientArray = productIngredient.components(separatedBy: ",")
         let userAllergensInProduct = getUserAllergensInProduct(ingredientArray: productIngredientArray, allAllergens: userAllergens)
         let allAllergensInProduct = getAllAllergensInProduct(ingredientArray: productIngredientArray, allAllergens: AllergenSynonyms.allAllergensSynonyms)
@@ -38,9 +39,11 @@ class ScanResultController: UIViewController {
         
         codeStringLabel.text = "Your Allergens:" + (userAllergensInProduct);
         OtherAllergensLabel.text = "Other Allergens:" + (otherAllergens);
-        dump(allAllergensInProduct)
+        let end = DispatchTime.now()
+        let nanoTime = end.uptimeNanoseconds - start.uptimeNanoseconds
+        let timeInterval = Double(nanoTime) / 1_000_000_000
+        dump("Time to retreieve info: \(timeInterval) seconds")
         print("---")
-        dump(userAllergensInProduct)
     }
     
     func getOtherAllergensInProduct(allAllgergens: String, userAllergensInProduct: String) -> (String)
@@ -97,13 +100,69 @@ class ScanResultController: UIViewController {
             let arr = NSArray(contentsOfFile: path!)
             return (arr as? Array<Dictionary<String,String>>)!
         }
-    func getProductInfo(data:String)->(Array<[String:String]>)
+    
+    func getProductInfo(data:String)->([String:String])
         {
-            let array = getSwiftArrayFromPlist(name: "Sheet1")
-            let namePredicate = NSPredicate(format: "gtin_upc = %@", data)
-            return [array.filter {namePredicate.evaluate(with: $0)}[0]]
+            let array = getSwiftArrayFromPlist(name: "Combined_food_info_utf8")
+            return binarySearch(array, key: data) { $0["gtin_upc"]! }!
         }
+    
+//    func getProductInfo(data:String)->([String:String])
+//        {
+//            let array = getSwiftArrayFromPlist(name: "Combined_food_info_utf8")
+//            let idArray = array.map { (dictionary) -> String in
+//                dictionary["gtin_upc"]!
+//            }
+//            if let index = binarySearch(idArray, key: data) {
+//                return array[index]
+//            }
+//            else
+//            {
+//                return ["":""]
+//            }
+//        }
 
+//    func getProductInfo(data:String)->(Array<[String:String]>)
+//        {
+//            let array = getSwiftArrayFromPlist(name: "Combined_food_info_utf8")
+//            let namePredicate = NSPredicate(format: "gtin_upc = %@", data)
+//            return [array.filter {namePredicate.evaluate(with: $0)}[0]]
+//        }
+        
+//     func binarySearch<T: Comparable>(_ a: [T], key: T) -> Int? {
+//        var lowerBound = 0
+//        var upperBound = a.count
+//        while lowerBound < upperBound {
+//            let midIndex = lowerBound + (upperBound - lowerBound) / 2
+//            if a[midIndex] == key {
+//                return midIndex
+//            } else if a[midIndex] < key {
+//                lowerBound = midIndex + 1
+//            } else {
+//                upperBound = midIndex
+//            }
+//        }
+//        return nil
+//    }
+    
+    func binarySearch<T: Comparable, U>(_ a: [U], key: T, keyMapper: (U) -> T) -> U? {
+        var lowerBound = 0
+        var upperBound = a.count
+        while lowerBound < upperBound {
+            let midIndex = lowerBound + (upperBound - lowerBound) / 2
+            if keyMapper(a[midIndex]) == key {
+                return a[midIndex]
+            } else if keyMapper(a[midIndex]) < key {
+                lowerBound = midIndex + 1
+            } else {
+                upperBound = midIndex
+            }
+        }
+        return nil
+    }
+    
+    
+    
     func zoomRect( rect:inout CGRect, srcImg: UIImage)
     {
         rect.origin.x -= 10
@@ -137,4 +196,3 @@ extension String {
         return self.range(of: find, options: .caseInsensitive) != nil
     }
 }
-
